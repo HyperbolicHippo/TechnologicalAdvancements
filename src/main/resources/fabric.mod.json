@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tech_advance",
+  "version": "${version}",
+
+  "name": "Technological Advancements",
+  "description": "Huge tech mod about progression, kinda like like SevTech: Ages, but in one mod. And not quite as good!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/tech_advance/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "hyperbolichippo.techadvancements.TechnologicalAdvancementsMod"
+    ],
+    "client": [
+      "hyperbolichippo.techadvancements.TechnologicalAdvancementsClient"
+    ]
+  },
+  "mixins": [
+    "tech_advance.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
