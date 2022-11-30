@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " | ",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "tech_advance:flint_shard"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tech_advance:flint_pickaxe"
+  }
+}
